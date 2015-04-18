@@ -1,0 +1,173 @@
+body {
+	background-image: url(../img/noise-texture.png);
+	background-color: rgb(34, 34, 34);
+	color: rgb(144, 144, 144);
+}
+
+h1#main-title {
+	color: #FFFC00;
+	text-shadow: 0px 0px 5px #FFFC00;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 72px;
+	text-align: center;
+}
+
+h3#main-subtitle {
+	text-align: center;
+}
+
+div#map {
+	width: 512px;
+	height: 512px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#controls-container, div#form-container {
+	text-align: center;
+}
+
+div#button-controls, div#form-wrap {
+	display: inline-block;
+}
+
+div#form-container {
+	margin: 20px;
+}
+
+button#play-replay {
+	width: 85px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div#time-container {
+	margin-top: 10px;
+}
+
+div#error-msg {
+	background-color: #9D5757;
+	color: black;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 15px;
+	border: rgb(218, 0, 0) solid 1px;
+}
+
+.table, .div-table {
+	display: table;
+}
+
+.row, .div-row  {
+	display: table-row;
+}
+
+.cell, .div-cell {
+	display: table-cell;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.match-table {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-row {
+	font-weight: bold;
+}
+
+.team-data-cell {
+	text-align: right;
+}
+
+.team-data-row.header-row > .team-data-cell {
+	text-align: center;
+}
+
+div#team-table-left, span#left-team-stats {
+	background-color: rgb(25, 34, 63);
+}
+
+div#team-table-right, span#right-team-stats {
+	background-color: rgb(63, 25, 25);	
+}
+
+div#team-stats {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1000px;
+	font-size: 20px;
+}
+
+.team-stats-half-bar {
+	padding: 5px 0px;
+}
+
+img.objective-icon {
+	height: 21px;
+}
+
+#team-stats-header-row > span > span {
+	padding: 6px 5px;
+	display: inline-block;
+}
+
+#team-stats-header {
+	font-size: 20px;
+}
+
+div#match-list-header {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+div#team-table-left {
+	float: left;
+}
+
+div#team-table-right {
+	float: right;
+}
+
+.champ-portrait {
+	width: 100px;
+}
+
+div#controls {
+	clear: both;
+}
+
+.flash-button {
+	color: #FFFC00;
+	text-shadow: 0 1px 0 #FFFC00;
+	background-image: -webkit-linear-gradient(top, #3F3F3F 0%, #282828 100%);
+	background-image: -o-linear-gradient(top, #3F3F3F 0%, #282828 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3F3F3F), to(#282828));
+	background-image: linear-gradient(to bottom, #3F3F3F 0%, #282828 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3F3F3F', endColorstr='#ff282828', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	border-color: #716D24;
+}
+
+.flash-button:hover, .flash-button:focus {
+	background-color: #282828;
+	background-position: 0 -15px;
+}
+
+.flash-button:hover, .flash-button:focus, .flash-button.focus, .flash-button:active, .flash-button.active, .open > .dropdown-toggle.flash-button {
+	color: #FFFC00;
+	background-color: #282828;
+	border-color: #716D24;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+  color: #FFFC00;
+  text-decoration: none;
+}
